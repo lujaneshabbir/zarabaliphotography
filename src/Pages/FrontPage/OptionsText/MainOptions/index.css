@@ -1,0 +1,9 @@
+#MainOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.MainOption {
+    width: 40%;
+    height: 50px;
+}

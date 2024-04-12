@@ -1,0 +1,10 @@
+#MainText {
+    color: brown;
+    align-items: center;
+}
+.IntroTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}

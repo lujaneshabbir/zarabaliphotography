@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import FrontPage from './Pages/FrontPage';
+import ViewAllPage from './Pages/ViewAllPage';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <FrontPage/>,
+  },
+  {
+    path: "/all",
+    element: <ViewAllPage/>,
+  },
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

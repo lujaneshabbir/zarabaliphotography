@@ -1,5 +1,4 @@
-import './App.css';
-import FrontPage from './FrontPage';
+import FrontPage from './Pages/FrontPage';
 
 function App() {
   return (

@@ -1,0 +1,10 @@
+#MainPage {
+  display: flex; 
+  flex-direction: row;
+  background-color: #ffffed;
+}
+
+img {
+  width: 50vw;
+  max-height: 100vh;
+}
